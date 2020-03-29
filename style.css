@@ -4,6 +4,9 @@
   box-sizing: border-box;
   text-align: center
 }
+.main-container{
+  position: relative;
+}
 nav {
   height: 100px;
   width: 100vw;
@@ -31,13 +34,13 @@ header img {
   padding: 40px;
   text-decoration: none;
 }
-.nav-name {
+.nav-background {
   height: 70vh;
   background: yellow;
   display: flex;
   justify-content: center;
 }
-.content {
+.content-home {
   width: 50%;
   margin-top: 10px;
   margin-left: 300px
@@ -50,6 +53,30 @@ footer {
   position: fixed;
   right: 11px;
 }
+.content-blog {
+  position: absolute;
+    top: 600px;
+    background-color: green;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
 
 
+.blog-entry {
+  height: 450px;
+  display: flex;
+  background: pink;
+} 
 
+ .blog-image{
+   width: 50%;
+   background: red;
+   height: 100%;
+}
+.blog-text{
+  width: 50%;
+  background: peachpuff;
+  height: 100%;
+}  

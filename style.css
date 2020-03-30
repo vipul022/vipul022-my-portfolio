@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .main-container{
   position: relative;
 }
@@ -38,10 +39,10 @@ nav {
   z-index: 1;
 }
 .nav-link {
-  padding: 50px;
+  /* padding: 50px; */
 }
 .nav-link a {
-  padding: 40px;
+  /* padding: 40px; */
   text-decoration: none;
 }
 .nav-background {
@@ -52,14 +53,26 @@ nav {
   /* background-size: cover; */
   /* background: url("https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?cs=srgb&dl=black-and-gray-laptop-computer-turned-on-doing-computer-1181271.jpg&fm=jpg");  */
   background-image: url("assets/home.jpg"); 
-
+  background-position: center;
 }
 .content-home {
-  width: 50%;
-  position: absolute;
-  top: 600px;
-  margin-left: 300px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  /* width: 50%; */
+  /* position: absolute; */
+  /* top: 600px; */
+  /* margin-left: 300px; */
 }
+
+.content-home p {
+  margin: 20px 0px 10px 0px;
+  /* width: 100%; */
+}
+
+
 footer {
   bottom: 11px;
   width: 17vw;
@@ -141,4 +154,17 @@ input[type=submit] {
 }
 label {
   font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) { 
+  .nav-background {
+    
+  }
+  .content-home {
+    width: auto;
+    margin: 0px;
+  }
+  .content-home p {
+    width: 50%;
+  }
 }

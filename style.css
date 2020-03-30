@@ -42,7 +42,8 @@ header img {
 }
 .content-home {
   width: 50%;
-  margin-top: 10px;
+  position: absolute;
+  top: 600px;
   margin-left: 300px
 }
 footer {
@@ -79,4 +80,17 @@ footer {
   width: 50%;
   background: peachpuff;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }  
+.blog-text p {
+  margin-right: 10%;
+    margin-left: 10%;
+}
+
+.blog-image img {
+  height: 100%;
+  width: 100%;
+}

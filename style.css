@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-align: center
+  /* text-align: center */
 }
 .main-container{
   position: relative;
@@ -10,6 +10,7 @@
 nav {
   height: 100px;
   width: 100vw;
+  
   
   display: flex;
   justify-content: flex-end;
@@ -29,6 +30,10 @@ header img {
 }
 .nav-links {
   display: flex;
+  z-index: 1;
+}
+.nav-link {
+  padding: 50px;
 }
 .nav-link a {
   padding: 40px;
@@ -44,7 +49,7 @@ header img {
   width: 50%;
   position: absolute;
   top: 600px;
-  margin-left: 300px
+  margin-left: 300px;
 }
 footer {
   bottom: 11px;
@@ -93,4 +98,38 @@ footer {
 .blog-image img {
   height: 100%;
   width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+#get-in-touch {
+  font-size: 50px;
+  margin: 20px 0px;
+}  
+.input-name-and-email {
+    height: 30px;
+    font-size: 15px;
+    margin: 12px 0px;
+    border: 1px solid black;
+}
+#message {
+    margin: 12px 0px;
+    font-size: 15px;
+    border: 1px solid black;
+    
+}
+input[type=submit] {
+    display: inline-block;
+    margin: 5px 0px 20px 0px;
+    font-size: 15px;
+    padding: 10px;
+    background: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+}
+label {
+  font-size: 18px;
 }

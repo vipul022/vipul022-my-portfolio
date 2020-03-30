@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* text-align: center */
 }
 .main-container{
   position: relative;
@@ -17,14 +16,20 @@ nav {
   align-items: center;
   position: fixed;
 }
-header {
+/* .header-text {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  right: 10%;
+} */
+
+.nav-wrapper{
   display: flex;
-  align-self: center;
-  flex-direction: column;
 }
-header img {
-  height: 200px;
-  width: 200px;
+
+.nav-wrapper img {
+  height: 110px;
+  width: 110px;
   border: 7px solid white;
   border-radius: 20px;  
 }
@@ -40,10 +45,14 @@ header img {
   text-decoration: none;
 }
 .nav-background {
-  height: 70vh;
-  background: yellow;
-  display: flex;
-  justify-content: center;
+  /* height: 70vh; */
+  height: 500px;
+  text-align: center;
+  /* background: yellow; */
+  /* background-size: cover; */
+  /* background: url("https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?cs=srgb&dl=black-and-gray-laptop-computer-turned-on-doing-computer-1181271.jpg&fm=jpg");  */
+  background-image: url("assets/home.jpg"); 
+
 }
 .content-home {
   width: 50%;

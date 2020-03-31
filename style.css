@@ -39,15 +39,23 @@ nav {
 }
 .nav-link {
   padding: 50px;
+  text-decoration: none;
+  font-size:30px;
+  color: white;
 }
-.nav-link a {
+  a:hover {
+   color: black;
+   font-size: 40px;
+   background: white;
+}
+/* .nav-link a {
   padding: 40px;
   text-decoration: none;
-}
+} */
 .nav-background {
   /* height: 70vh; */
   height: 500px;
-  text-align: center;
+  /* text-align: center; */
   /* background: yellow; */
   /* background-size: cover; */
   /* background: url("https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?cs=srgb&dl=black-and-gray-laptop-computer-turned-on-doing-computer-1181271.jpg&fm=jpg");  */

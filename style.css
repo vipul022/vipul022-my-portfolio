@@ -61,12 +61,14 @@ nav {
   font-family: 'Montserrat', sans-serif;
 }
 #home-header {
-    margin-left: 40%;
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
     font-size: 20px;
     margin-bottom: 15px;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
+    
 }
 .content-home p {
   margin: 2px 0px 10px 0px;
@@ -117,9 +119,10 @@ footer a {
 }
 
 #blog-header {
-    margin-left: 35%;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
 }
@@ -194,7 +197,7 @@ input[type=submit] {
     border-radius: 10px;
     width: 100px;
 }
-p email-contact {
+span.email-contact {
   color: dodgerblue;
 }
 label {
@@ -223,18 +226,24 @@ label {
   .nav-background {
     
   }
+  #get-in-touch {
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
   .content-home {
     width: auto;
     margin: 0px;
+    align-items: center;
   }
   .content-home p {
-    width: 50%;
+    width: 80%;
     font-size: 1em;
     line-height: 20px;
   }
   #home-header {
     font-size: 20px;
-    margin-left: 65px;
   }
   footer {
     width: 42vw;
@@ -265,7 +274,6 @@ label {
   }
   #blog-header {
     font-size: 20px;
-    margin: 10% 30% 10% 30%;
   }
   .blog-text h1 {
     font-size: 25px;
@@ -273,7 +281,7 @@ label {
   }
   .nav-link {
     font-size: 18px;
-      padding: 20px;
+      padding: 13px;
   }
   .nav-link:hover {
     font-size: 20px;
@@ -289,13 +297,8 @@ label {
   }
   .grid-item {
     font-size: 4em;
-  .grid-item {
-    row-gap: 0.2em;
+ 
   }  
-    
-    
-
-      
 }
   
  

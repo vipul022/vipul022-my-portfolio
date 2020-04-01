@@ -85,7 +85,7 @@ nav {
 
 footer {
   bottom: 11px;
-  width: 17vw;
+  width: 22vw;
   height: 70px;
   background: black;
   position: fixed;
@@ -95,11 +95,16 @@ footer {
   justify-content: space-evenly;
 }
 footer p {
-  margin-left: 6%;
+ 
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: white;
 }
+footer .resume {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
     
 footer a {
   text-decoration: none;
@@ -191,18 +196,39 @@ form {
 input[type=submit] {
     display: inline-block;
     margin: 5px 0px 20px 0px;
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px;
-    background: cornflowerblue;
+    background: dodgerblue;
     color: white;
     border: none;
     border-radius: 10px;
     width: 100px;
 }
+p email-contact {
+  color: dodgerblue;
+}
 label {
   font-size: 18px;
 }
-
+#skills-header {
+    margin-left: 45%;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+.grid-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  grid-row-gap: 1em;
+  margin-top: 1.25em;
+}
+.grid-item {
+  font-size: 5.5em;
+}
 @media only screen and (max-width: 600px) { 
   .nav-background {
     

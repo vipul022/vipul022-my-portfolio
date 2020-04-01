@@ -10,13 +10,13 @@
 nav {
   height: 100px;
   width: 100vw;
-  
-  
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: fixed;
 }
+  
+  
 
 #date-created{
   display: flex;
@@ -56,6 +56,7 @@ nav {
 
   .nav-background {
   height: 500px;
+  /* set background image */
   background-image: url("assets/home.jpg"); 
   background-position: center;
 }
@@ -227,10 +228,9 @@ label {
 .grid-item {
   font-size: 5.5em;
 }
+/* applied media query to all html pages */
 @media only screen and (max-width: 600px) { 
-  .nav-background {
-    
-  }
+  
   #get-in-touch {
     font-size: 20px;
     margin: 20px 0px;

@@ -17,12 +17,7 @@ nav {
   align-items: center;
   position: fixed;
 }
-/* .header-text {
-  position: absolute;
-  top: 70%;
-  left: 10%;
-  right: 10%;
-} */
+
 
 .nav-wrapper{
   display: flex;
@@ -47,17 +42,12 @@ nav {
   padding: 30px;
   font-family: 'Montserrat', sans-serif;
 }
-  a:hover {
+   .nav-link:hover {
    color: white;
    font-size: 40px;
    background: black;
 }
-/* .nav-link a {
-  padding: 40px;
-  }
-  text-decoration: none;
-  /* background-size: cover; */
-  /* background: url("https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?cs=srgb&dl=black-and-gray-laptop-computer-turned-on-doing-computer-1181271.jpg&fm=jpg");  */
+
   .nav-background {
   height: 500px;
   background-image: url("assets/home.jpg"); 
@@ -129,11 +119,11 @@ footer a {
 #blog-header {
     margin-left: 35%;
     margin-top: 70px;
-    font-size: 20px;
     margin-bottom: 70px;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
 }
+    
 
 .blog-entry {
   height: 450px;
@@ -239,5 +229,73 @@ label {
   }
   .content-home p {
     width: 50%;
+    font-size: 1em;
+    line-height: 20px;
   }
+  #home-header {
+    font-size: 20px;
+    margin-left: 65px;
+  }
+  footer {
+    width: 42vw;
+    height: 50px;
+    opacity: 0.7;
+    
+  }
+  footer p {
+    font-size: 18px;
+  }
+  .footericon {
+    font-size: 20px;
+  }
+  #github-footer {
+    font-size: 15px ;
+  }
+  .blog-entry {
+    display: block;
+    height: auto;
+    
+  }
+  .blog-image {
+    width: 100%;
+  }
+  .blog-text {
+    display: block;
+    width: auto;
+  }
+  #blog-header {
+    font-size: 20px;
+    margin: 10% 30% 10% 30%;
+  }
+  .blog-text h1 {
+    font-size: 25px;
+    margin: 10px 100px 10px 100px;
+  }
+  .nav-link {
+    font-size: 18px;
+      padding: 20px;
+  }
+  .nav-link:hover {
+    font-size: 20px;
+  }
+  .nav-wrapper img {
+    height: 90px;
+    width: 90px;
+  }  
+  #skills-header {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .grid-item {
+    font-size: 4em;
+  .grid-item {
+    row-gap: 0.2em;
+  }  
+    
+    
+
+      
 }
+  
+ 

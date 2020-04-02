@@ -57,7 +57,7 @@ nav {
   .nav-background {
   height: 500px;
   /* set background image */
-  background-image: url("assets/home.jpg"); 
+  background-image: url("../docs/home.jpg"); 
   background-position: center;
 }
 .content-home {

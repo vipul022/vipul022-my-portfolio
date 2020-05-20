@@ -1,8 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    /* font-size: 17pt; */
+    font-weight: 300;
+    letter-spacing: 0.150em;
+    line-height: 1.65;
+ 
+}  
 
 .main-container{
   position: relative;
@@ -43,10 +51,10 @@ nav {
 }
 .nav-link {
   text-decoration: none;
-  font-size:30px;
-  color: black;
+  /* font-size:30px; */
+  /* color: black; */
   padding: 30px;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
    .nav-link:hover {
    color: white;
@@ -54,20 +62,34 @@ nav {
    background: black;
 }
 
+
   .nav-background {
-  height: 500px;
+  height: 75vh;
   /* set background image */
-  background-image: url("../docs/home.jpg"); 
+  /* background-image: url("../docs/busyCity.jpg");  */
+   /* background-image:linear-gradient(to right, rgba(26, 23, 45, 0.5) 100%, rgba(2, 0, 9, 0.495)100%),url("../docs/busyCity.jpg"); */
+   
+  /* background-image:linear-gradient(to right, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%); */
+  /* background-image:linear-gradient(to right, black, grey); */
+ /* background-color: #000000; */
+/* background-image:linear-gradient(315deg, #000000 7%, #7f8c8d 74%), url("../docs/busyCity.jpg"); */
+
+background-image:linear-gradient(to right, rgba(26, 23, 45, 0.9) 100%, rgba(2, 0, 9, 0.495)100%),url("../docs/busyCity.jpg");
   background-position: center;
-}
+  background-repeat: no-repeat;
+  background-size: cover;
+    /* transition: opacity 2.5s ease;
+    transition-delay: 0.75s;*/
+} 
 .content-home {
   width: 60%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  
 }
-#home-header {
+#home-header p{
   display: flex;
   justify-content: center;
   margin-top: 30px;
@@ -75,10 +97,12 @@ nav {
   margin-bottom: 15px;
   font-size: 50px;
   font-family: 'Montserrat', sans-serif;  
+  color: black;
 }
 .content-home p {
   margin: 2px 0px 10px 0px;
   font-size: 1.25em;
+  color: black;
 }
 
 footer {

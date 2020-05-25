@@ -432,17 +432,21 @@ label {
     width: 84vw;
   }
   #get-in-touch h2 {
-    font-size: 20px;
-    margin: 20px 0px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    font-size: 2em;
+    left: 26%;
+    padding-top: 0.25em;
+ 
   }
   .content-home {
     width: 90%;
     left: 5%;
     margin: 0px;
-    /* align-items: center; */
+   
     margin-bottom: 1em;
+  }
+
+  .input-name-and-email {
+    height: 2.5em;
   }
  
     
@@ -457,8 +461,13 @@ label {
     padding: 0.5em;
   }
    
-  #home-header {
-    /* font-size: 0.75em; */
+  .content-contact {
+    /* width: 100%; */
+    left: 18.5%;
+  }
+
+  form {
+   width: 100%;
   }
   footer {
     width: 100vw;
@@ -516,7 +525,7 @@ label {
     font-weight: 500;
     letter-spacing: 0.120em;
     
-    padding-top: 0.50em;
+    padding-top: 0.25em;
     color: #242943;
   }
   .grid-item {

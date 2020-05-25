@@ -5,25 +5,28 @@
     box-sizing: border-box;
     color: #ffffff;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
-    /* font-size: 17pt; */
     font-weight: 300;
     letter-spacing: 0.150em;
     line-height: 1.65;
     overflow-x: hidden;
- 
 }  
 
-.main-container{
-  position: relative;
+.nav {
+  visibility: hidden;
 }
+ 
 nav {
   height: 100px;
   width: 100vw;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* position: fixed; */
+  
 }
+    
+
+
+
   
   
 
@@ -121,59 +124,53 @@ nav {
 
   .nav-background {
   height: 75vh;
-  /* set background image */
-  /* background-image: url("../docs/busyCity.jpg");  */
-   /* background-image:linear-gradient(to right, rgba(26, 23, 45, 0.5) 100%, rgba(2, 0, 9, 0.495)100%),url("../docs/busyCity.jpg"); */
-   
-  /* background-image:linear-gradient(to right, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%); */
-  /* background-image:linear-gradient(to right, black, grey); */
- /* background-color: #000000; */
-/* background-image:linear-gradient(315deg, #000000 7%, #7f8c8d 74%), url("../docs/busyCity.jpg"); */
+  position: relative;
+
 
 background-image:linear-gradient(to right, rgba(26, 23, 45, 0.9) 100%, rgba(2, 0, 9, 0.495)100%),url("../docs/busyCity.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-    /* transition: opacity 2.5s ease;
-    transition-delay: 0.75s;*/
-
 } 
+
+
 
 .main {
  background-color: #e97770;
 }
 .content-home {
-  position: relative;
-  left: 10%;
-  width: 65vw;
+  /* position: relative; */
+  /* left: 10%; */
+  width: 75vw;
+  margin: auto;
   display: flex;
   flex-direction: column;
   border: 0.5px solid;
   background: white;
   border-radius: 0.5em 0.5em 0.5em 0.5em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   }
   
 
   
 
   .content-contact {
-    position: relative;
-    left: 10%;
-    width: 65vw;
+    margin: auto;
   }
 #home-header h2{
-  position: relative;
-  left: 32%;
+  
   font-size: 3em;
   font-weight: 500;
   letter-spacing: 0.120em;
   color: #242943;
-  padding-top: 0.25em;
+  
 }
  
-  
+  #home-header {
+    display: flex;
+    justify-content: center;
+  }
  
  
     
@@ -187,13 +184,14 @@ background-image:linear-gradient(to right, rgba(26, 23, 45, 0.9) 100%, rgba(2, 0
    
 
 footer {
-  bottom: 11px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   width: 22vw;
-  height: 60px;
+  height: 3.25em;
   background:#242943;
   /* opacity: 0.8; */
-  position: fixed;
-  right: 11px;
+  /* position: fixed; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -313,7 +311,7 @@ footer a {
 form {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 65vw;
   margin: 0 auto;
 }
 .content-contact p  {
@@ -328,15 +326,18 @@ form {
   color: #242943;
 }
 
+#get-in-touch {
+  display: flex;
+  justify-content: center;
+}
+
 #get-in-touch h2 {
-  position: relative;
-  left: 30%;
+  
   font-size: 3em;
   font-weight: 500;
   letter-spacing: 0.120em;
   color:  #242943;
-  /* color: #ffffff; */
-  padding-top: 0.50em;
+  
 }
  
 .input-name-and-email {
@@ -388,20 +389,24 @@ label {
   padding: 0.3em;
   font-weight: 600;
   letter-spacing: 0.25em;
-  font-size: 0.8em;
+  font-size: 1em;
   margin: 0.75em 0;
 }
 
+#skills-header {
+  display: flex;
+  justify-content: center;
+}
+
   #skills-header h2 {
-    position: relative;
-    left: 36%;
     font-size: 3em;
     font-weight: 500;
     letter-spacing: 0.120em;
     color: #242943;
-    /* color: #ffffff; */
-    padding-top: 0.25em;
   }
+    
+  
+    
 .grid-content {
   width: 100%;
   display: grid;
@@ -413,12 +418,92 @@ label {
 .grid-item {
   font-size: 5.5em;
 }
-/* applied media query to all html pages */
-@media only screen and (max-width: 414px) { 
 
-  nav-background {
-    height: 80vh;
+/* applied media query to all html pages */
+
+
+@mixin text-shadow {
+  color: #D0F8FF;
+  text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+  0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+  0 0 40px #A5F1FF;
+}
+ 
+@media only screen and (max-width: 1024px) {
+   footer {
+    width: 100vw;
+    height: 3.25em;
+    /* position: relative; */
+    position: absolute;
+    bottom: 0 ;
   }
+    .content-home {
+    margin:  auto;
+    margin-bottom: 1em;
+      width: 90vw;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid;
+    background: white;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    left: 0;
+    } 
+    
+    #get-in-touch h2 {
+      font-size: 2em;
+   
+  }
+    #skills-header h2 {
+     font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 0.120em;
+    color: #242943;
+    }
+
+     #home-header h2 {
+       font-size: 2em;
+     }
+   
+  
+
+    .content-contact{
+      margin: 0 auto;
+      left: 0;
+    }
+
+    form {
+      width: 75%;
+    } 
+}
+
+@media only screen and (max-width: 500px) { 
+
+
+  /* .nav-links {
+    display: none;
+   
+  } */
+  
+  /* .nav {
+    visibility:visible;
+    /* text-align: right; */
+    /* margin-top: 1.5em; */
+    /* height: 2em; */
+    /* width: 9vw;
+    position: absolute;
+    right: 3%;
+  } */ 
+  /* .nav a {
+    text-decoration: none;
+    display: inline-block;
+  } */
+  /* .fas {
+    font-size: 2em;
+  } */
+  /* .fa-bars:before {
+    content: "\f0c9";
+} */
+
 
   .banner {
     left: 5%;
@@ -431,19 +516,11 @@ label {
   .banner #line {
     width: 84vw;
   }
-  #get-in-touch h2 {
-    font-size: 2em;
-    left: 26%;
-    padding-top: 0.25em;
+
+    
  
-  }
-  .content-home {
-    width: 90%;
-    left: 5%;
-    margin: 0px;
+  
    
-    margin-bottom: 1em;
-  }
 
   .input-name-and-email {
     height: 2.5em;
@@ -451,10 +528,8 @@ label {
  
     
 
-  #home-header h2 {
-    left: 26%;
-    font-size: 2em;
-  }
+  
+  
   .content-home p {
     width: 100%;
     font-size: 1em;
@@ -466,22 +541,11 @@ label {
     left: 18.5%;
   }
 
-  form {
-   width: 100%;
-  }
-  footer {
-    width: 100vw;
-    height: 3.25em;
-    position: relative;
-    position: absolute;
-    top: 69vh;
-    right: 0;
-  }
+
+
     
    
-  footer p {
-    font-size: 18px;
-  }
+  
   .footericon {
     font-size: 20px;
   }
@@ -495,6 +559,7 @@ label {
   }
   .blog-image {
     width: 100%;
+    display: flex;
   }
   .blog-text {
     display: block;
@@ -518,26 +583,12 @@ label {
     height: 90px;
     width: 90px;
   }  
-  #skills-header h2 {
-    position: relative;
-    left: 35%;
-    font-size: 2em;
-    font-weight: 500;
-    letter-spacing: 0.120em;
+ 
     
-    padding-top: 0.25em;
-    color: #242943;
-  }
+    
+    
   .grid-item {
     font-size: 3.5em;
  
   }  
 }
-
-@mixin text-shadow {
-  color: #D0F8FF;
-  text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
-  0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
-  0 0 40px #A5F1FF;
-}
- 

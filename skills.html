@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vipul Seth -Portfolio</title>
-  <link integrity="sha384-iJzOgn1MHT9j+cxGp1R/CNjyE42j46SB8gaWn31rjHs/2DQBsuskfKw8YXgk+JMS"  rel="stylesheet" href="style.css">
+  <link integrity="sha384-l3mD12i1i+/H0CnzM7NFqwbfa55Fn/o46RwMVMmroKjWmxPVO1v1gHmZ1gwGNSaR" rel="stylesheet"  href="style.css" />
+   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/7ed668486b.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 <body>
   <div class="main-container">
       <div class="nav-background">
+        <!-- nav-bar layout for mobile view  -->
         <div class="nav-wrapper">
-          <img src='./docs/IMG-4464.PNG' alt="profile picture"/>
           <nav class="nav-links">
             <a class="nav-link" href="./index.html">Home</a>
 
@@ -23,9 +24,43 @@
             <a class="nav-link" href="./contact.html">Contact</a>
           </nav>
         </div>
+         <!-- nav-bar layout for mobile view  -->
+         <div class="nav">
+           <ul>
+             <li class="dropdown">
+               <a href="javascript:void(0)" class="dropbtn">
+                 <i class="fas fa-bars"></i>
+               </a>
+               <div class="dropdown-content">
+                 <a href="./index.html">Home</a>
+                 <a href="./blog.html">Blog</a>
+                 <a href="./skills.html">Skills</a>
+                 <a href="./contact.html">Contact</a>
+               </div> 
+             </li>
+           </ul>
+         </div>
+        <div class="banner">
+          <h1>Hi, my name is Vipul</h1>
+          <div id="line"></div>
+          <p>FULL STACK DEVELOPER BASED IN MELBOURNE.</p>
+
+        </div>
+         <footer>
+          <a href="https://www.linkedin.com/feed/">
+            <i class="fab fa-linkedin footericon"></i>
+          </a>
+          <a href="https://github.com/vipul022">
+            <i class="devicon-github-plain colored" id="github-footer"></i>
+          </a>
+          <a href="#">
+            <p class="resume">[Resume]</p>
+          </a>
+        </footer>
       </div>
       <!-- added icons in grid -->
-      <div id="skills-header">Skills</div>
+      <div class="main">
+      <div id="skills-header"><h2>Skills</h2></div>
       <div class="content-home">
         <div class="grid-content">
           <div class="grid-item">
@@ -66,20 +101,10 @@
           </div>
 
       </div>
-      <!-- added linkedin , github, resume links to footer -->
-      <footer>
-      <p>Vipul Seth</p> 
-      <a href="https://www.linkedin.com/feed/">
-        <i class="fab fa-linkedin footericon"></i>
-      </a>
-      <a href="https://github.com/vipul022">
-        <i class="devicon-github-plain colored" id="github-footer"></i>
-      </a>
-      <a href="#">
-        <p class="resume">[Resume]</p>
-      </a>
-    </footer>
       </div>
+      <!-- added linkedin , github, resume links to footer -->
+      
+    </div>  
   </div>    
 </body>
 </html>

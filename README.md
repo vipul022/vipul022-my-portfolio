@@ -12,37 +12,35 @@ The purpose of the portfolio website is to present my skills, interests, and wor
 
 ## 1. Navigation bar
 
-The site has a navigation bar on the top which include my picture on the top-left corner. On the top-right corner it has links to navigate to different pages of site which include home,blog,skills,contact.
+The site has a navigation bar on the top. On the top-right corner, it has links to navigate to different pages of the site which include home, blog, skills, and contact.
 
 ## 2. background image
 
-There is big background image of a computer desk with the laptop placed on it on every page of site. 
+There is big background image of a busy street of Melbourne CBD.
 
 ## 3. Header
 
 There is a header beneath the background image of every page to inform the users about the content that page.
 
-## 4. Footer 
+## 4. Footer
 
-There is a black color fixed footer on the bottom-right corner of every page. The footer contains my name along with the links of my Linked and Github account. At the very last, there is a link to download my resume.
+The footer is placed on the bottom-right corner of the background image. The footer contains the links to my LinkedIn account, Github account, and resume.
 
 ## 5. Accessibility
 
-The special attention has been paid to ability of visually-impaired individuals on this site. There is an alt-text given for all the images in the site for assistance.
+Special attention has been paid to the ability of visually-impaired individuals on this site by using semantic HTML. There is an alt-text also given for all the images on the site for assistance.
 
 ## 6. Responsive Design
 
-As users may use different devices to access the site so the attention has been paid to design the the website so that it function well on the screens if different sizes.
+As users may use different devices to access the site so the attention has been paid to design the website so that it functions well on screens of different sizes.
 
 # Sitemap
 
 The sitemap for the website is presented below.
 
-
-![alt text](./docs/sitemap.png 'sitemap')
+![alt text](./docs/sitemap.png "sitemap")
 
 ## Wireframes
-
 
 ![alt text](./docs/IMG-4477.jpg)
 
@@ -52,21 +50,16 @@ The sitemap for the website is presented below.
 
 ![alt text](./docs/IMG-4480.jpg)
 
-
-
 # Target audience
 
-The target audience for the website are my future  employers and recruiters. The website intends to showcase my talent as a software developer. 
+The target audience for the website is my future employers and recruiters. The website intends to showcase my talent as a software developer.
 
 ## Tech stack
 
-1. HTML is used for making all the contents of website.
-2. CSS is used to style and position all the element of website.
-3. Netlify is used hosting the website.
+1. HTML is used for making all the contents of the website.
+2. CSS is used to style and position all the elements of the website.
+3. Netlify is used to host the website.
 
-
-
-
-
-
-
+```
+The End!
+```
